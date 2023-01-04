@@ -27,6 +27,5 @@ These are steps for using this repo. locally.
 ![Screenshot 2023-01-04 200646](https://user-images.githubusercontent.com/39629707/210580606-2d3d94b2-6368-491a-9072-ab70bc0f290f.jpg)
 
 
-### Note:
-I made this website while learning Full-Stack Web Development and please feel free to suggest any changes. Thanks!
+
 
