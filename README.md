@@ -2,8 +2,6 @@
 
 This website is a portal for DBATU(My College) where students can get a job and recruiters can post for job vacancies.
 
-This is a simple website made using,
-
 These are steps for using this repo. locally.
 ```bash
   git clone https://github.com/yashdoshi12/Student_Recruitment_Portal.git
@@ -11,16 +9,22 @@ These are steps for using this repo. locally.
 ```
 !!!!!!!!!!!!!!!!!!!!!!!!!Work In Progress!!!!!!!!!!!!!!!
 
-### Example prewview of website(The Date on top will automatically update to current day!)
+### Example prewview of website (index.html):
 (Last two are important!):
-![Screenshot 2023-01-03 131524](https://user-images.githubusercontent.com/39629707/210317421-2d6f685a-e35c-445b-a7af-7a1158170f83.jpg)
+![Screenshot 2023-01-04 195942](https://user-images.githubusercontent.com/39629707/210578017-d8740f12-c360-4680-9528-9942c8d40445.jpg)
 
 
-### After clicking the checkbox:
-![Screenshot 2023-01-03 131556](https://user-images.githubusercontent.com/39629707/210317484-7ea72b17-acf7-43fd-b69e-348af564c98a.jpg)
+### Example 3 (gallary):
+![Screenshot 2023-01-04 200617](https://user-images.githubusercontent.com/39629707/210578885-607de8e9-a2f8-4579-91ee-4e17d562ab52.jpg)
 
-### The work To-Do list(To access type -- localhost/3000/work):
-![Screenshot 2023-01-03 131937](https://user-images.githubusercontent.com/39629707/210317582-4645d46b-9859-4fd6-9ac9-8a2cd9158383.jpg)
+### Example 3 (indes.html):
+
+![Screenshot 2023-01-04 200745](https://user-images.githubusercontent.com/39629707/210579023-6773b7f9-f23a-45fe-bb44-c3c81d184eb0.jpg)
+
+### Example 3 (LoginGate.html):
+
+![Screenshot 2023-01-04 200711](https://user-images.githubusercontent.com/39629707/210579057-f4370bf8-377a-4143-86fe-7dcc0c431ed5.jpg)
+
 
 ### Note:
 I made this website while learning Full-Stack Web Development and please feel free to suggest any changes. Thanks!
