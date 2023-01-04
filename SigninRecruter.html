@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Batu-Logo-Transperent-New-1-1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="SigninRecruter.css"/>
+    <title>Recruter--Portal SignIn</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo" height="853" >
+      <source src="Sea - 24216.mp4" type="video/mp4">
+    </video>
+    <div>
+      <form action="SigninRecruter.php" method="post">
+        <h1 style="text-align: center;"> Fill the details to proceed.</h1>
+        <div class="container">
+
+          <label for="name"><b>Company's Name</b></label>
+          <input type="text" placeholder="Enter companies name (5-50 Characters)" name="name" id="name" pattern="[A-Za-z]{5,50}"  autofocus required/>
+
+          <label for="uname"><b>Name</b></label>
+          <input type="text" placeholder="Enter your name (4-50 Characters)" name="uname" id="uname" pattern="[A-Za-z]{4,50}"  autofocus required/>
+          
+          <label for="linkedin"><b>Your LinkedIn URL</b></label>
+          <input type="url" placeholder="Enter your linkedin profile url" name="linkedin" id="linkedin" autofocus required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" autofocus required/>
+
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" autofocus required name="email" id="email" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+          
+          <label for="vacancies"><b>Number of vacancies</b></label>
+          <input type="number" placeholder="Enter number of vacancies" autofocus required name="vacancies" id="vacancies" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+
+          <label for="Skill"><b>Select a mainstream skill you are looking for.</b></label>
+          <select name="Skill" id="Skill" autofocus required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+            <option value="">Choose a skill.</option>    
+            <option value="python" style="text-align: center; font-weight: bold;">Python</option>    
+          <option value="c++" style="text-align: center; font-weight: bold;">C++</option>    
+          <option value="dsa" style="text-align: center; font-weight: bold;">DSA</option>    
+          <option value="web Department" style="text-align: center; font-weight: bold;">Web Development</option>    
+          <option value="App Development" style="text-align: center; font-weight: bold;">App Development</option>    
+          <option value="Machine Learning" style="text-align: center; font-weight: bold;">Machine Learning</option>    
+          <option value="Data Science" style="text-align: center; font-weight: bold;">Data Science</option> 
+          <option value="Java" style="text-align: center; font-weight: bold;">Java</option>
+          <option value="Competitive Coding" style="text-align: center; font-weight: bold;">Competitive Coding</option>
+          <option value="UI/UX Design" style="text-align: center; font-weight: bold;">UI/UX Design</option>
+          <option value="Game Development" style="text-align: center; font-weight: bold;">Game Development</option>
+          <option value="SQL" style="text-align: center; font-weight: bold;">SQL</option>
+          <option value="Ruby" style="text-align: center; font-weight: bold;">Ruby</option>
+          <option value="Shell Script" style="text-align: center; font-weight: bold;">Shell Script</option>
+          <option value="Powershell" style="text-align: center; font-weight: bold;">Powershell</option>
+          <option value="AWS" style="text-align: center; font-weight: bold;">AWS</option>
+          <option value="Microsoft Azure" style="text-align: center; font-weight: bold;">Microsoft Azure</option>
+          <option value="CyberSecurity" style="text-align: center; font-weight: bold;">CyberSecurity</option>
+          <option value="Cloud Computing" style="text-align: center; font-weight: bold;">Cloud Computing</option>
+          <option value="DevOps" style="text-align: center; font-weight: bold;">DevOps</option>
+          <option value="Computer Vision" style="text-align: center; font-weight: bold;">Computer Vision</option>
+          <option value="Artificial Inteligence(AI)" style="text-align: center; font-weight: bold;">Artificial Inteligence(AI)</option>
+          <option value="BlockChain" style="text-align: center; font-weight: bold;">BlockChain</option>
+          <option value="Networking" style="text-align: center; font-weight: bold;">Networking</option>
+          <option value="Human Resource(HR)" style="text-align: center; font-weight: bold;">Human Resource(HR)</option>   
+          <option value="Biusness Analytics" style="text-align: center; font-weight: bold;">Biusness Analytics</option>
+          <option value="Linux" style="text-align: center; font-weight: bold;">Linux</option>
+          <option value="Operating Systems" style="text-align: center; font-weight: bold;">Operating Systems</option>
+          <option value="Communication Skills" style="text-align: center; font-weight: bold;">Communication Skills</option>
+          <option value="None" style="text-align: center; font-weight: bold;">None</option>     
+          </select>
+
+          <label for="salary">Select the salary/stiphen range as per month.</label>
+            <select name="salary" id="salary" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+            <option value="">Choose a suitable range.</option>    
+            <option value="0" >₹0 to ₹1,000</option>    
+            <option value="1" >₹1,000 to ₹2,000</option>
+            <option value="2" >₹2,000 to ₹5,000</option>    
+            <option value="3" >₹5,000 to ₹10,000</option> 
+            <option value="4" >₹10,000 and above</option>   
+        </select>
+
+        <label for="Job">Select the salary/stiphen range as per month.</label>
+        <select name="Job" id="Job" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">       
+          <option value="1">Work From home(Part time)(Default)</option>    
+          <option value="2">Work from Home(Full time)</option>
+          <option value="3">Work from Office(Full time)</option>    
+          <option value="4">Work from Office(Part Time)</option> 
+          <option value="5">Hybrid(Part Time)</option>
+          <option value="6">Hybrid(Full Time)</option>   
+        </select>
+          <button type="submit">Sign Up</button>
+        </div>
+        <div class="container" >
+          <a class="cancelbtn" href="LoginGate.html">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

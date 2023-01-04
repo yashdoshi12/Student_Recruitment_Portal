@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Batu-Logo-Transperent-New-1-1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="SigninStudent.css"/>
+    <title>Student--Portal SignIn</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo" height="853" >
+      <source src="Sea - 24216.mp4" type="video/mp4">
+    </video>
+    <div>
+      <form action="successful.html">
+        <h1 style="text-align: center;"> Grab your free student Account Now!!!</h1>
+        <div class="container">
+
+          <label for="Name"><b>Name</b></label>
+          <input type="text" placeholder="Enter your name (4-10 Characters)" name="Name"  id="Name" pattern="[A-Za-z]{4,10}"  autofocus required/>
+          
+          <label for="Password"><b>Password</b></label>
+          <input type="Password" placeholder="Enter Password" name="Password" id="Password"autofocus required/>
+
+          <label for="PRN"><b>PRN</b></label>
+          <input type="number" placeholder="Enter your PRN" autofocus required name="PRN" id="PRN" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+          
+          <label for="Email"><b>Email</b></label>
+          <input type="Email" placeholder="Enter Email" autofocus required name="Email"  id="Email" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+
+          <label for="Birthday"><b>Birthday</b></label>
+          <input type="date" placeholder="Enter Your Birthday" autofocus required name="Birthday" id="Birthday" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+
+          
+          <label for="Dept">Select your Department.</label>
+
+          <select name="Dept"id="Dept"  style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+          <option value="">Click here to select.</option>    
+          <option value="Computer Department" style="text-align: center; font-weight: bold;">Computer Department</option>    
+          <option value="IT Department" style="text-align: center; font-weight: bold;">IT Department</option>    
+          <option value="Electrical Department" style="text-align: center; font-weight: bold;">Electrical Department</option>    
+          <option value="EXTC Department" style="text-align: center; font-weight: bold;">EXTC Department</option>    
+          <option value="Petrochemical Department" style="text-align: center; font-weight: bold;">Petrochemical Department</option>       
+          <option value="Mechanical Department" style="text-align: center; font-weight: bold;">Mechanical Department</option>  
+          <option value="Chemical Department" style="text-align: center; font-weight: bold;">Chemical Department</option>
+        </select>
+        <label for="Year">Select year.</label>
+        <select name="Year" id="Year" autofocus required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+          <option value="">Choose a position.</option>    
+          <option value="1st" style="text-align: center; font-weight: bold;">1st</option>    
+          <option value="2nd" style="text-align: center; font-weight: bold;">2nd</option>
+          <option value="3rd" style="text-align: center; font-weight: bold;">3rd</option>
+          <option value="4th" style="text-align: center; font-weight: bold;">4th</option>      
+        </select>
+         
+        <label for="text"><b>Select a mainstream skill you are best at.</b></label>
+        <input id="skills" list="selectskill"  placeholder="Enter only one skill you are best at." autofocus required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+        <datalist id="selectskill" >    
+          <option >Python</option>    
+          <option >C++</option>    
+          <option >DSA</option>    
+          <option >Web Development</option>    
+          <option >App Development</option>    
+          <option >Machine Learning</option>    
+          <option >Data Science</option> 
+          <option >Java</option>
+          <option >Competitive Coding</option>
+          <option >UI/UX Design</option>
+          <option >Game Development</option>
+          <option >SQL</option>
+          <option >Ruby</option>
+          <option >Shell Script</option>
+          <option >Powershell</option>
+          <option >AWS</option>
+          <option >Microsoft Azure</option>
+          <option >CyberSecurity</option>
+          <option >Cloud Computing</option>
+          <option >DevOps</option>
+          <option >Computer Vision</option>
+          <option >Artificial Inteligence(AI)</option>
+          <option >BlockChain</option>
+          <option >Networking</option>
+          <option >Human Resource(HR)</option>   
+          <option >Biusness Analytics</option>
+          <option >Linux</option>
+          <option >Operating Systems</option>
+          <option >Communication Skills</option>
+          <option >None</option>
+
+        </datalist>
+          <button type="submit">Sign Up</button>
+        </div>
+        <div class="container" >
+          <a class="cancelbtn" href="LoginGate.html">Back</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

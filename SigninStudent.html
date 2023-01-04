@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Batu-Logo-Transperent-New-1-1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="SigninStudent.css"/>
+    <title>Student--Portal SignIn</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo" height="853" >
+      <source src="Sea - 24216.mp4" type="video/mp4">
+    </video>
+    <div>
+      <form action="SignInStudent.php" method="post">
+        <h1 style="text-align: center;"> Grab your free student Account Now!!!</h1>
+        <div class="container">
+
+          <label for="Name"><b>Name</b></label>
+          <input type="text" placeholder="Enter your name (4-10 Characters)" name="Name"  id="Name" pattern="[A-Za-z]{4,10}"  autofocus required/>
+          
+          <label for="Password"><b>Password</b></label>
+          <input type="Password" placeholder="Enter Password" name="Password" id="Password"autofocus required/>
+
+          <label for="PRN"><b>PRN</b></label>
+          <input type="number" placeholder="Enter your PRN" autofocus required name="PRN" id="PRN" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+          
+          <label for="Email"><b>Email</b></label>
+          <input type="Email" placeholder="Enter Email" autofocus required name="Email"  id="Email" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+
+          <label for="Birthday"><b>Birthday</b></label>
+          <input type="text" placeholder="Enter Your Birthday" autofocus required name="Birthday" id="Birthday" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+
+          
+          <label for="Dept">Select your Department.</label>
+
+          <select name="Dept"id="Dept"  style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+          <option value="">Click here to select.</option>    
+          <option value="Computer Department" style="text-align: center; font-weight: bold;">Computer Department</option>    
+          <option value="IT Department" style="text-align: center; font-weight: bold;">IT Department</option>    
+          <option value="Electrical Department" style="text-align: center; font-weight: bold;">Electrical Department</option>    
+          <option value="EXTC Department" style="text-align: center; font-weight: bold;">EXTC Department</option>    
+          <option value="Petrochemical Department" style="text-align: center; font-weight: bold;">Petrochemical Department</option>       
+          <option value="Mechanical Department" style="text-align: center; font-weight: bold;">Mechanical Department</option>  
+          <option value="Chemical Department" style="text-align: center; font-weight: bold;">Chemical Department</option>
+        </select>
+        <label for="Year">Select year.</label>
+        <select name="Year" id="Year" autofocus required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+          <option value="">Choose a position.</option>    
+          <option value="1st" style="text-align: center; font-weight: bold;">1st</option>    
+          <option value="2nd" style="text-align: center; font-weight: bold;">2nd</option>
+          <option value="3rd" style="text-align: center; font-weight: bold;">3rd</option>
+          <option value="4th" style="text-align: center; font-weight: bold;">4th</option>      
+        </select>
+         
+        <label for="Skill"><b>Select a mainstream skill you are best at.</b></label>
+        <select name="Skill" id="Skill" autofocus required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+          <option value="">Choose a skill.</option>      
+          <option value="python" style="text-align: center; font-weight: bold;">Python</option>    
+          <option value="c++" style="text-align: center; font-weight: bold;">C++</option>    
+          <option value="dsa" style="text-align: center; font-weight: bold;">DSA</option>    
+          <option value="web Department" style="text-align: center; font-weight: bold;">Web Development</option>    
+          <option value="App Development" style="text-align: center; font-weight: bold;">App Development</option>    
+          <option value="Machine Learning" style="text-align: center; font-weight: bold;">Machine Learning</option>    
+          <option value="Data Science" style="text-align: center; font-weight: bold;">Data Science</option> 
+          <option value="Java" style="text-align: center; font-weight: bold;">Java</option>
+          <option value="Competitive Coding" style="text-align: center; font-weight: bold;">Competitive Coding</option>
+          <option value="UI/UX Design" style="text-align: center; font-weight: bold;">UI/UX Design</option>
+          <option value="Game Development" style="text-align: center; font-weight: bold;">Game Development</option>
+          <option value="SQL" style="text-align: center; font-weight: bold;">SQL</option>
+          <option value="Ruby" style="text-align: center; font-weight: bold;">Ruby</option>
+          <option value="Shell Script" style="text-align: center; font-weight: bold;">Shell Script</option>
+          <option value="Powershell" style="text-align: center; font-weight: bold;">Powershell</option>
+          <option value="AWS" style="text-align: center; font-weight: bold;">AWS</option>
+          <option value="Microsoft Azure" style="text-align: center; font-weight: bold;">Microsoft Azure</option>
+          <option value="CyberSecurity" style="text-align: center; font-weight: bold;">CyberSecurity</option>
+          <option value="Cloud Computing" style="text-align: center; font-weight: bold;">Cloud Computing</option>
+          <option value="DevOps" style="text-align: center; font-weight: bold;">DevOps</option>
+          <option value="Computer Vision" style="text-align: center; font-weight: bold;">Computer Vision</option>
+          <option value="Artificial Inteligence(AI)" style="text-align: center; font-weight: bold;">Artificial Inteligence(AI)</option>
+          <option value="BlockChain" style="text-align: center; font-weight: bold;">BlockChain</option>
+          <option value="Networking" style="text-align: center; font-weight: bold;">Networking</option>
+          <option value="Human Resource(HR)" style="text-align: center; font-weight: bold;">Human Resource(HR)</option>   
+          <option value="Biusness Analytics" style="text-align: center; font-weight: bold;">Biusness Analytics</option>
+          <option value="Linux" style="text-align: center; font-weight: bold;">Linux</option>
+          <option value="Operating Systems" style="text-align: center; font-weight: bold;">Operating Systems</option>
+          <option value="Communication Skills" style="text-align: center; font-weight: bold;">Communication Skills</option>
+          <option value="None" style="text-align: center; font-weight: bold;">None</option>    
+        </select>
+          <button type="submit">Sign Up</button>
+        </div>
+        <div class="container" >
+          <a class="cancelbtn" href="LoginGate.html">Back</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
