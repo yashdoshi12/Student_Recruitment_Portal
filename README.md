@@ -7,7 +7,6 @@ These are steps for using this repo. locally.
   git clone https://github.com/yashdoshi12/Student_Recruitment_Portal.git
   cd index.html
 ```
-!!!!!!!!!!!!!!!!!!!!!!!!!Work In Progress!!!!!!!!!!!!!!!
 
 ### Example prewview of website (index.html):
 (Last two are important!):
