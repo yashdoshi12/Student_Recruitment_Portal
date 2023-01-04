@@ -9,7 +9,6 @@ These are steps for using this repo. locally.
 ```
 
 ### Example prewview of website (index.html):
-(Last two are important!):
 ![Screenshot 2023-01-04 195942](https://user-images.githubusercontent.com/39629707/210578017-d8740f12-c360-4680-9528-9942c8d40445.jpg)
 
 
