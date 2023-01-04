@@ -4,7 +4,7 @@ This website is a portal for DBATU(My College) where students can get a job and 
 
 This is a simple website made using,
 
-Run the commands from below into your shell.
+These are steps for using this repo. locally.
 ```bash
   git clone https://github.com/yashdoshi12/Student_Recruitment_Portal.git
   cd index.html
