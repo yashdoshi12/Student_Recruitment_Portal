@@ -25,7 +25,7 @@ These are steps for using this repo. locally.
 
 ### Example 5 (SignInStudent.html):
 ![Screenshot 2023-01-04 200646](https://user-images.githubusercontent.com/39629707/210580606-2d3d94b2-6368-491a-9072-ab70bc0f290f.jpg)
+<hr />
+<br />
 
-
-
-
+<div align="center">Don't forget to leave a star ⭐️</div>
