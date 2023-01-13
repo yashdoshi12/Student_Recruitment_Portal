@@ -15,7 +15,7 @@ These are steps for using this repo. locally.
 ### Example 2 (gallary):
 ![Screenshot 2023-01-04 200617](https://user-images.githubusercontent.com/39629707/210578885-607de8e9-a2f8-4579-91ee-4e17d562ab52.jpg)
 
-### Example 3 (indes.html):
+### Example 3 (index.html):
 
 ![Screenshot 2023-01-04 200745](https://user-images.githubusercontent.com/39629707/210579023-6773b7f9-f23a-45fe-bb44-c3c81d184eb0.jpg)
 
