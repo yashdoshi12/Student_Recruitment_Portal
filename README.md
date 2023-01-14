@@ -2,12 +2,19 @@
 
 This website is a portal for DBATU(My College) where students can get a job and recruiters can post for job vacancies.
 
-These are steps for using this repo. locally.
-```bash
-  git clone https://github.com/yashdoshi12/Student_Recruitment_Portal.git
-  cd Student_Recruitment_Portal
+# :octocat: Cloning this repo:
+- [x] Run the following command:
+```bash 
+git clone 'https://github.com/yashdoshi12/Student_Recruitment_Portal.git' 
 ```
-
+- [x] `cd` to the cloned folder:
+```bash 
+cd Student's Recruitment Portal
+```
+- [x] Install required `npm` pakages
+```bash 
+npm i
+```
 ### Example preview of website (index.html):
 ![Screenshot 2023-01-04 195942](https://user-images.githubusercontent.com/39629707/210578017-d8740f12-c360-4680-9528-9942c8d40445.jpg)
 
